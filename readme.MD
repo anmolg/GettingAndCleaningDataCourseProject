@@ -41,6 +41,6 @@ All the data was aggregated from the new dataset by the subjectId and activity t
 
 Lastly, this transformation led us to losing the name of some variables. I changed the variables to names that would be easily recognizable
 
-** Section 5:**
+**Section 5:**
 
 The data was written to a table, with row-names removed.
