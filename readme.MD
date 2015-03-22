@@ -34,6 +34,7 @@ A new dataset, combinedData, was created with all the filtered out columns.
 ActivityID was changed to represent the real values rather than an identifier. Once the data was merged, we were able to remove the ActivityID, since we now had a column Activity that told us the activity of the subject during the recording of the data.
 
 **Section 4:**
+
 To take the average across all the means and standard deviation for each subject and activity, I created a new dataset that had all the data except for the activity and subjectID. This dataset represented the data we wanted to transform into averages.
 
 All the data was aggregated from the new dataset by the subjectId and activity to extract the mean of each subject/activity so there would be a single record for each activity performed by a subject.
@@ -41,4 +42,5 @@ All the data was aggregated from the new dataset by the subjectId and activity t
 Lastly, this transformation led us to losing the name of some variables. I changed the variables to names that would be easily recognizable
 
 ** Section 5:**
+
 The data was written to a table, with row-names removed.
